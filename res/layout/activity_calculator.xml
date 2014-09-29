@@ -9,8 +9,45 @@
     tools:context="cs325.zhang.calculator.CalculatorActivity" >
 
     <TextView
+        android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/title"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/btPlus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="+" />
+
+    <Button
+        android:id="@+id/btMinus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btPlus"
+        android:layout_below="@+id/btPlus"
+        android:text="-" />
+
+    <Button
+        android:id="@+id/btMultiply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btMinus"
+        android:layout_below="@+id/btMinus"
+        android:text="*" />
+
+    <Button
+        android:id="@+id/btDivide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btMultiply"
+        android:layout_below="@+id/btMultiply"
+        android:text="*" />
 
 </RelativeLayout>

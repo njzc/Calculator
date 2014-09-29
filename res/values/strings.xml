@@ -2,7 +2,7 @@
 <resources>
 
     <string name="app_name">Calculator</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="title">What would you like to calculate today?</string>
     <string name="action_settings">Settings</string>
 
 </resources>
