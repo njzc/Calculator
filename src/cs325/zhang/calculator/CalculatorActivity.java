@@ -38,11 +38,10 @@ public class CalculatorActivity extends Activity {
 			EditText etValue1 = (EditText)findViewById(R.id.etValue1);
 			EditText etValue2 = (EditText)findViewById(R.id.etValue2);
 			TextView tvResult = (TextView)findViewById(R.id.tvResult);
-			String a = savedInstanceState.getString(STATE_VALUE1);
 			
-			etValue1.setText(a);
-			etValue2.setText(savedInstanceState.getString(STATE_VALUE2) + "0");
-			tvResult.setText(savedInstanceState.getString(STATE_RESULT) + "0");
+			etValue1.setText(savedInstanceState.getString(STATE_VALUE1));
+			etValue2.setText(savedInstanceState.getString(STATE_VALUE2));
+			tvResult.setText(savedInstanceState.getString(STATE_RESULT));
 
 		}
 		else
@@ -50,9 +49,6 @@ public class CalculatorActivity extends Activity {
 			// new instance
 			saveStartedTimesCount();
 		}
-
-		
-		
 		
 	}
 	

@@ -1,8 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Calculator</string>
-    <string name="title">今天你想计算什么呢？</string>
-    <string name="action_settings">Settings</string>
+    <string name="app_name">计算器</string>
+    <string name="title">今天你想计算什么？</string>
+    <string name="action_settings">设置</string>
+    <string name="result">0.0</string>
+    <string name="value1">值1:</string>
+    <string name="value2">值2:</string>
+    <string name="result_title">结果:</string>
+    <string name="about_button">关于作者</string>
+    <string name="error_dialog_title">错误</string>
+    <string name="error_dialog_message_value_invalid">请在值1或值2中输入有效的数字</string>
+    <string name="error_dialog_message_value2_is_zero">值2不能为零.</string>
+    <string name="error_dialog_positive_button">OK</string>
+    <string name="title_activity_about">关于作者</string>
+    <string name="statistic_started_times_count">应用程序启动次数:</string>
+    <string name="statistic_total_computation_count">自安装以来总的计算次数:</string>
+    <string name="statistic_session_computation_count">本次计算的次数:</string>
+    <string name="usage_statistics">使用统计:</string>
+    <string name="author_info">作者信息:</string>
+    <string name="author_name">姓名: 张聪</string>
+    <string name="author_email">电子邮件: cong.zhang6@mail.mcgill.ca</string>
 
 </resources>

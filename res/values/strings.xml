@@ -13,10 +13,14 @@
     <string name="error_dialog_message_value_invalid">Please input a valid number for Value 1 or Value 2.</string>
     <string name="error_dialog_message_value2_is_zero">Value 2 cannot be zero.</string>
     <string name="error_dialog_positive_button">OK</string>
-    <string name="title_activity_about">AboutActivity</string>
+    <string name="title_activity_about">About the Author</string>
     <string name="hello_world">Hello world!</string>
     <string name="statistic_started_times_count">Application started times:</string>
     <string name="statistic_total_computation_count">Total computation(s) since app installed:</string>
     <string name="statistic_session_computation_count">Total computation(s) in this session:</string>
+    <string name="usage_statistics">Usage Statistics:</string>
+    <string name="author_info">Author Info:</string>
+    <string name="author_name">Name: Cong Zhang</string>
+    <string name="author_email">Email: cong.zhang6@mail.mcgill.ca</string>
 
 </resources>

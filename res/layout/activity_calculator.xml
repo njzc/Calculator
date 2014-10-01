@@ -83,7 +83,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/tvResult"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="23dp"
+        android:layout_marginTop="24dp"
         android:text="@string/about_button"
         android:onClick="showAboutActivity"
          />
@@ -114,11 +114,8 @@
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/btMultiply"
         android:layout_alignLeft="@+id/tvValue1"
-        android:layout_toLeftOf="@+id/btAbout"
-        android:ems="10"
         android:inputType="numberDecimal" >
 
-        <requestFocus />
     </EditText>
 
     <EditText
@@ -126,7 +123,6 @@
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/btMultiply"
         android:layout_alignLeft="@+id/tvValue2"
-        android:ems="10"
         android:layout_width="100dp"
         android:inputType="numberDecimal" />
 

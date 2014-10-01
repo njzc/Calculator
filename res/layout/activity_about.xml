@@ -9,9 +9,49 @@
     tools:context="cs325.zhang.calculator.AboutActivity" >
 
     <TextView
+        android:id="@+id/tvAuthurInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="@string/author_info"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <TextView
+        android:id="@+id/tvAuthorName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvAuthurInfo"
+        android:text="@string/author_name" />
+    
+    <TextView
+        android:id="@+id/tvAuthorEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvAuthorName"
+        android:autoLink="email" 
+        android:text="@string/author_email" />
+    
+    <ImageView
+        android:id="@+id/ivAuthorPhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvAuthorEmail"
+        android:src="@drawable/ic_launcher" />
+    
+    <TextView
+        android:id="@+id/tvStatistic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivAuthorPhoto"
+        android:paddingTop="20dp"
+        android:text="@string/usage_statistics"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <TextView
         android:id="@+id/tvStatisticStartedTimesLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/tvStatistic"
         android:text="@string/statistic_started_times_count" />
     
     <TextView
@@ -52,5 +92,6 @@
         android:layout_alignBaseline="@+id/tvStatisticSessionComputationCountLabel"
         android:layout_toRightOf="@+id/tvStatisticSessionComputationCountLabel"
         android:text="0" />
+
 
 </RelativeLayout>
