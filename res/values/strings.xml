@@ -4,5 +4,19 @@
     <string name="app_name">Calculator</string>
     <string name="title">What would you like to calculate today?</string>
     <string name="action_settings">Settings</string>
+    <string name="result">0.0</string>
+    <string name="value1">Value 1:</string>
+    <string name="value2">Value 2:</string>
+    <string name="result_title">The result is:</string>
+    <string name="about_button">About the Author</string>
+    <string name="error_dialog_title">Error</string>
+    <string name="error_dialog_message_value_invalid">Please input a valid number for Value 1 or Value 2.</string>
+    <string name="error_dialog_message_value2_is_zero">Value 2 cannot be zero.</string>
+    <string name="error_dialog_positive_button">OK</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="statistic_started_times_count">Application started times:</string>
+    <string name="statistic_total_computation_count">Total computation(s) since app installed:</string>
+    <string name="statistic_session_computation_count">Total computation(s) in this session:</string>
 
 </resources>
